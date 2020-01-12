@@ -40,6 +40,8 @@ const jwt = require('jwt-core')
 const token = jwt.Token.createByPayload(payload);
 ```
 
+- `payload` is same [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback)
+
 ​    
 
 ### Create Token By Aliased Payload
@@ -64,6 +66,8 @@ const token = jwt.Token.createByAliasPayload(payload);
   }
   ```
 
+- `payload` is same [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback)
+
 ​    
 
 ### Create Token By Encoding Token
@@ -71,16 +75,20 @@ const token = jwt.Token.createByAliasPayload(payload);
 ```js
 const jwt = require('jwt-core')
 
-const token = jwt.Token.createByEncodingToken(encodingToken, secret);
+const token = jwt.Token.createByEncodingToken(jwtString, secretOrPrivateKey, options);
 ```
+
+- `options` is same [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken#jwtverifytoken-secretorpublickey-options-callback)
 
 ​    
 
 ## Encode Token
 
 ```js
-token.encode(secret);
+token.encode(secretOrPrivateKey, options);
 ```
+
+- `options` is same [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback)
 
 ​    
 
