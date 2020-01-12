@@ -107,7 +107,7 @@ token.get(key);
 ### Set
 
 ```js
-token.Set(key, value);
+token.set(key, value);
 ```
 
 - Alias is applied

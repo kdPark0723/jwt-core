@@ -1,6 +1,6 @@
 {
   "name": "jwt-core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "use simple jwt",
   "main": "lib",
   "scripts": {
@@ -8,7 +8,8 @@
   },
   "keywords": [
     "node",
-    "jwt"
+    "jwt",
+    "token"
   ],
   "author": "Park Si-Yual",
   "homepage": "https://github.com/kdPark0723/jwt-core",
