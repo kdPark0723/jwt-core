@@ -1,0 +1,22 @@
+{
+  "name": "jwt-core",
+  "version": "1.0.0",
+  "description": "use simple jwt",
+  "main": "lib",
+  "scripts": {
+    "test": "./node_modules/.bin/cross-env NODE_ENV=test ./node_modules/.bin/jest --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "jest": "^24.9.0"
+  }
+}
