@@ -82,7 +82,7 @@ const token = jwt.Token.createByEncodingToken(jwtString, secretOrPrivateKey, opt
 
 ​    
 
-## Encode Token
+### Encode Token
 
 ```js
 token.encode(secretOrPrivateKey, options);
@@ -92,9 +92,9 @@ token.encode(secretOrPrivateKey, options);
 
 ​    
 
-## Get And Set Token Claim
+### Get And Set Token Claim
 
-### Get
+#### Get
 
 ```js
 token.get(key);
@@ -104,7 +104,7 @@ token.get(key);
 
 ​    
 
-### Set
+#### Set
 
 ```js
 token.set(key, value);
