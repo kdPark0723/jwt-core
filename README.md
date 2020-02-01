@@ -62,7 +62,7 @@ const token = jwt.Token.createByAliasPayload(payload);
     expiresIn: 'exp',
     notBefore: 'nbf',
     issuedAt: 'iat',
-    jwtid: 'jti',
+    jwtId: 'jti',
   }
   ```
 
